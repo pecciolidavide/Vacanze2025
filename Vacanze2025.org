@@ -4,8 +4,9 @@
 
 * Proposte
 
-| Luogo                | LINK   | Periodo     | Costo | Costo Macchina | Costo a persona |
-|----------------------+--------+-------------+-------+----------------+-----------------|
-| Clermont, Francia    | [[https://www.airbnb.it/rooms/1236747089369030039?check_in=2025-08-04&check_out=2025-08-11&guests=1&adults=8&s=67&unique_share_id=c933a41f-eb0b-4eaa-aa68-21a6963f1b5f][AirBNB]] | 4-11 agosto | 1314€ | 556 EUR        | 234 EUR         |
-| San Etienne, Francai | [[https://www.airbnb.it/rooms/954456055156285734?check_in=2025-08-04&check_out=2025-08-11&guests=1&adults=8&s=67&unique_share_id=7c5b93b2-c1a8-4dc1-a69d-6cd73b719bc2][AirBNB]] | 4-11 agosto | 1285€ | 660 EUR        | 244 EUR         |
-|----------------------+--------+-------------+-------+----------------+-----------------|
+| Luogo                | LINK   | Periodo     | Costo    | Costo Macchina | Costo a persona |
+|----------------------+--------+-------------+----------+----------------+-----------------|
+| Clermont, Francia    | [[https://www.airbnb.it/rooms/1236747089369030039?check_in=2025-08-04&check_out=2025-08-11&guests=1&adults=8&s=67&unique_share_id=c933a41f-eb0b-4eaa-aa68-21a6963f1b5f][AirBNB]] | 4-11 agosto | 1314 EUR | 556 EUR        | 234 EUR         |
+| San Etienne, Francia | [[https://www.airbnb.it/rooms/954456055156285734?check_in=2025-08-04&check_out=2025-08-11&guests=1&adults=8&s=67&unique_share_id=7c5b93b2-c1a8-4dc1-a69d-6cd73b719bc2][AirBNB]] | 4-11 agosto | 1285 EUR | 660 EUR        | 244 EUR         |
+| Grosseto, Toscana    | [[https://www.airbnb.it/rooms/18988843?check_in=2025-08-02&check_out=2025-08-09&guests=8&adults=8&s=67&unique_share_id=adf5ecf3-000a-4508-a54b-a8a26c38c3a5][AirBNB]] | 2-9 agosto  | 1577 EUR |                |                 |
+|----------------------+--------+-------------+----------+----------------+-----------------|
