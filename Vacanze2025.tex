@@ -1,0 +1,270 @@
+% Created 2025-02-26 Wed 14:12
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+\newcommand{\use}[2][]{\usepackage[#1]{#2}}
+% PACCHETTI FONDAMENTLAI
+\use[utf8]{inputenc}
+\use[T1]{fontenc}
+\use{graphicx}
+\use{longtable}
+\use{wrapfig}
+\use{rotating}
+\use[normalem]{ulem}
+\use{amsmath}
+\use{amssymb}
+\use{capt-of}
+\use[italian]{babel}
+\use[babel]{csquotes}
+\use[style=numeric, hyperref]{biblatex}
+\use{microtype}
+\use{lmodern}
+\use{subfig} % sottofigure
+\use{multicol} % due colonne
+\use{lipsum} % lorem ipsum
+\use{color} % colori in latex
+\use{parskip} % rimuove l'indentazione dei nuovi paragrafi %% Add parbox=false to all new tcolorbox
+\use{centernot}
+\use[outline]{contour}\contourlength{3pt}
+\use{fancyhdr}
+\use{layout}
+\use[most]{tcolorbox} % Riquadri colorati
+\use{ifthen} % IFTHEN
+\use{geometry}
+
+% pacchetti matematica
+\use{yhmath}
+\use{dsfont}
+\use{mathrsfs}
+\use{cancel} % semplificare
+\use{polynom} %divisione tra polinomi
+\use{forest} % grafi ad albero
+\use{booktabs} % tabelle
+\use{commath} %simboli e differenziali
+\use{bm} %bold
+\use[fulladjust]{marginnote} %to use marginnote for date notes
+\use{arrayjobx}%array
+\use[intlimits]{empheq} % Riquadri colorati attorno alle equazioni
+\use{mathtools}
+%%%%%%%%%%%%%
+
+
+%%%% QUIVER
+\newcommand{\duepunti}{\,\mathchar\numexpr"6000+`:\relax\,}
+% A TikZ style for curved arrows of a fixed height, due to AndréC.
+\tikzset{curve/.style={settings={#1},to path={(\tikztostart)
+    .. controls ($(\tikztostart)!\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+    and ($(\tikztostart)!1-\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
+    .. (\tikztotarget)\tikztonodes}},
+    settings/.code={\tikzset{quiver/.cd,#1}
+        \def\pv##1{\pgfkeysvalueof{/tikz/quiver/##1}}},
+    quiver/.cd,pos/.initial=0.35,height/.initial=0}
+
+% TikZ arrowhead/tail styles.
+\tikzset{tail reversed/.code={\pgfsetarrowsstart{tikzcd to}}}
+\tikzset{2tail/.code={\pgfsetarrowsstart{Implies[reversed]}}}
+\tikzset{2tail reversed/.code={\pgfsetarrowsstart{Implies}}}
+% TikZ arrow styles.
+\tikzset{no body/.style={/tikz/dash pattern=on 0 off 1mm}}
+%%%%%%%%%%
+
+
+%% DEFINIZIONI COMANDI MATEMATICI
+\let\sin\relax %TOGLIE LA DEFINIZIONE SU "\sin"
+
+% cambia la definizione di empty set
+% ---
+\let\oldemptyset\emptyset
+% ---
+% \let\emptyset\varnothing
+% ---
+% \let\emptyset\relax
+% \newcommand{\emptyset}{\text{\textnormal{\O}}}
+% ---
+
+\DeclareMathOperator{\bounded}{bd}
+\DeclareMathOperator{\sin}{sen}
+\DeclareMathOperator{\epi}{Epi}
+\DeclareMathOperator{\cl}{cl}
+\DeclareMathOperator{\graph}{graph}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\spettro}{Spettro}
+\DeclareMathOperator{\nulls}{nullspace}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\ar}{ar}
+\DeclareMathOperator{\const}{Const}
+\DeclareMathOperator{\fun}{Fun}
+\DeclareMathOperator{\rel}{Rel}
+\DeclareMathOperator{\altezza}{ht}
+\let\det\relax %TOGLIE LA DEFINIZIONE SU "\det"
+\DeclareMathOperator{\det}{det}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\gl}{GL}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\id}{Id}
+\DeclareMathOperator{\I}{\mathds{1}}
+\DeclareMathOperator{\II}{II}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\tc}{t.c.}
+\DeclareMathOperator{\T}{T}
+\DeclareMathOperator{\var}{Var}
+\DeclareMathOperator{\cov}{Cov}
+\DeclareMathOperator{\st}{st}
+\DeclareMathOperator{\mon}{Mon}
+\newcommand{\card}[1]{\left\vert #1 \right\vert}
+\newcommand{\trasposta}[1]{\prescript{\text{T}}{}{#1}}
+\newcommand{\1}{\mathds{1}}
+\newcommand{\R}{\mathds{R}}
+\newcommand{\diesis}{\#}
+\newcommand{\bemolle}{\flat}
+\newcommand{\starR}{\nonstandard{\R}}
+\newcommand{\borel}{\mathscr{B}}
+\newcommand{\lebesgue}[1]{\mathscr{L}\left(#1\right)}
+\newcommand{\media}{\mathds{E}}
+\newcommand{\K}{\mathds{K}}
+\newcommand{\A}{\mathds{A}}
+\newcommand{\Q}{\mathds{Q}}
+\newcommand{\N}{\mathds{N}}
+\newcommand{\C}{\mathds{C}}
+\newcommand{\Z}{\mathds{Z}}
+\newcommand{\qo}{\hspace{1em}\text{q.o.}\,}
+\renewcommand{\tilde}[1]{\widetilde{#1}}
+\renewcommand{\parallel}{\mathrel{/\mkern-5mu/}}
+\newcommand{\parti}[2][]{\wp_{#1}(#2)}
+\newcommand{\diff}[1]{\operatorname{d}_{#1}}
+\renewcommand{\vec}[1]{\overrightarrow{\vphantom{i}#1}}
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+\newcommand{\cat}[1]{\mathbf{#1}}
+\newcommand{\dfreccia}[1]{\xrightarrow{\ #1 \ }}
+\newcommand{\sfreccia}[1]{\xleftarrow{\ #1 \ }}
+\newcommand{\formalsum}[2]{{\sum_{#1}^{#2}}{\vphantom{\sum}}'}
+\newcommand{\minim}[2]{\mu_{#1}\, \left(#2\right)}
+
+%% Definizione di \dotminus
+
+\makeatletter
+\newcommand{\dotminus}{\mathbin{\text{\@dotminus}}}
+
+\newcommand{\@dotminus}{%
+  \ooalign{\hidewidth\raise1ex\hbox{.}\hidewidth\cr$\m@th-$\cr}%
+}
+\makeatother
+
+%tramite i prossimi due comandi posso decidere come scrivere i logaritmi naturali in tutti i documenti: ho infatti eliminato qualsiasi differenza tra "ln" e "log": se si vuole qualcosa di diverso bisogna inserire manualmente il tutto
+\let\ln\relax
+\DeclareMathOperator{\ln}{ln}
+\let\log\relax
+\DeclareMathOperator{\log}{log}
+%%%%%%
+
+%% NUOVI COMANDI
+\newcommand{\straniero}[1]{\textit{#1}} %parole straniere
+\newcommand{\titolo}[1]{\textsc{#1}} %titoli
+\newcommand{\qedd}{\tag*{$\blacksquare$}} %qed per ambienti matemastici
+\newcommand{\ooverline}[1]{\overline{\overline{#1}}}
+\newcommand{\circoletto}[1]{\left(#1\right)^{\text{o}}}
+%
+\newcommand{\qmatrice}[1]{\begin{pmatrix}
+#1_{11} & \cdots & #1_{1n}\\
+\vdots & \ddots & \vdots \\
+#1_{m1} & \cdots & #1_{mn}
+\end{pmatrix}}
+%
+\newcommand{\parentesi}[2]{%
+\underset{#1}{\underbrace{#2}}%
+}
+%
+\newcommand{\norma}[1]{% Norma
+\left\lVert#1\right\rVert%
+}
+\newcommand{\scalare}[2]{% Scalare
+\left\langle #1, #2\right\rangle
+}
+%%%%%
+
+%% RESTRIZIONI
+\newcommand{\referenze}[2]{
+	\phantomsection{}#2\textsuperscript{\textcolor{blue}{\textbf{#1}}}
+}
+
+\let\restriction\relax
+
+\def\restriction#1#2{\mathchoice
+              {\setbox1\hbox{${\displaystyle #1}_{\scriptstyle #2}$}
+              \restrictionaux{#1}{#2}}
+              {\setbox1\hbox{${\textstyle #1}_{\scriptstyle #2}$}
+              \restrictionaux{#1}{#2}}
+              {\setbox1\hbox{${\scriptstyle #1}_{\scriptscriptstyle #2}$}
+              \restrictionaux{#1}{#2}}
+              {\setbox1\hbox{${\scriptscriptstyle #1}_{\scriptscriptstyle #2}$}
+              \restrictionaux{#1}{#2}}}
+\def\restrictionaux#1#2{{#1\,\smash{\vrule height .8\ht1 depth .85\dp1}}_{\,#2}}
+%%%%%%%%%%%
+
+%% SEZIONE GRAFICA
+\use{tikz}
+\usetikzlibrary{matrix, patterns, calc, decorations.pathreplacing, hobby, decorations.markings, decorations.pathmorphing, babel}
+\use{tikz-3dplot}
+\use{mathrsfs} %per geogebra
+\use{tikz-cd}
+\tikzset
+{
+  %surface/.style={fill=black!10, shading=ball,fill opacity=0.4},
+  plane/.style={black,pattern=north east lines},
+  curve/.style={black,line width=0.5mm},
+  dritto/.style={decoration={markings,mark=at position 0.5 with {\arrow{Stealth}}}, postaction=decorate},
+  rovescio/.style={decoration={markings,mark=at position 0.5 with {\arrow{Stealth[reversed]}}}, postaction=decorate}
+}
+\use{pgfplots} % stampare le funzioni
+	\pgfplotsset{/pgf/number format/use comma,compat=1.15}
+	%\pgfplotsset{compat=1.15} %per geogebra
+	\usepgfplotslibrary{fillbetween, polar}
+%%%%%%
+
+%% CITAZIONI
+\use{lineno}
+
+\newcommand{\citazione}[1]{%
+  \begin{quotation}
+  \begin{linenumbers}
+  \modulolinenumbers[5]
+  \begingroup
+  \setlength{\parindent}{0cm}
+  \noindent #1
+  \endgroup
+  \end{linenumbers}
+  \end{quotation}\setcounter{linenumber}{1}
+  }
+%%%%%%
+
+
+\use{hyperref}
+\hypersetup{%
+	pdfauthor={Davide Peccioli},
+	pdfsubject={},
+	allcolors=black,
+	citecolor=black,
+	colorlinks=true,
+	bookmarksopen=true}
+\pagestyle{empty}
+\author{Davide Peccioli}
+\date{\today}
+\title{Vacanze 2025}
+\begin{document}
+
+\maketitle
+\section{Proposte}
+\label{sec:orgb2fce64}
+
+\begin{center}
+\begin{tabular}{llllll}
+Luogo & LINK & Periodo & Costo & Costo Macchina & Costo a persona\\
+\hline
+Clermont, Francia & \href{https://www.airbnb.it/rooms/1236747089369030039?check\_in=2025-08-04\&check\_out=2025-08-11\&guests=1\&adults=8\&s=67\&unique\_share\_id=c933a41f-eb0b-4eaa-aa68-21a6963f1b5f}{AirBNB} & 4-11 agosto & 1314€ & 556 EUR & 234 EUR\\
+San Etienne, Francai & \href{https://www.airbnb.it/rooms/954456055156285734?check\_in=2025-08-04\&check\_out=2025-08-11\&guests=1\&adults=8\&s=67\&unique\_share\_id=7c5b93b2-c1a8-4dc1-a69d-6cd73b719bc2}{AirBNB} & 4-11 agosto & 1285€ & 660 EUR & 244 EUR\\
+\hline
+\end{tabular}
+\end{center}
+\end{document}
