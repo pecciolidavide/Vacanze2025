@@ -1,4 +1,5 @@
 #+title: Vacanze 2025
+#+EXPORT_FILE_NAME: index
 #+OPTIONS: toc:nil
 
 * Proposte
