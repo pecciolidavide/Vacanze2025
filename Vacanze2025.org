@@ -2,6 +2,14 @@
 #+EXPORT_FILE_NAME: index
 #+OPTIONS: toc:nil
 
+* Viaggio a Grosseto
+2-9 agosto
+
+https://www.airbnb.com/l/ni24ihqn?s=67&unique_share_id=8c0de06d-4fb4-47b1-9dc3-13ff527933cf
+
+Costo alloggio: 1577 EUR
+Indirizzo: [[https://maps.app.goo.gl/Vor7XBa6eqLtBHMw7][Località Cernaia 699, Grosseto (GR), 58100]]
+
 * Proposte
 
 Tutti i prezzi sono in EUR, e i costi a persona sono *comprensivi di alloggio e trasporti*
