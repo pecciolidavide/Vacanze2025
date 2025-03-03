@@ -10,6 +10,9 @@ https://www.airbnb.com/l/ni24ihqn?s=67&unique_share_id=8c0de06d-4fb4-47b1-9dc3-1
 Costo alloggio: 1577 EUR
 Indirizzo: [[https://maps.app.goo.gl/Vor7XBa6eqLtBHMw7][Località Cernaia 699, Grosseto (GR), 58100]]
 
+Ricevute di pagamento:
+- [[file:Ricevuta_Pagamento_1.pdf][icevuta Pagamento 1]]
+
 * Proposte
 
 Tutti i prezzi sono in EUR, e i costi a persona sono *comprensivi di alloggio e trasporti*
