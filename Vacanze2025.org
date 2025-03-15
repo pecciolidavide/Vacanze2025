@@ -11,9 +11,6 @@ https://www.airbnb.com/l/ni24ihqn?s=67&unique_share_id=8c0de06d-4fb4-47b1-9dc3-1
 Costo alloggio: 1577 EUR
 Indirizzo: [[https://maps.app.goo.gl/Vor7XBa6eqLtBHMw7][Località Cernaia 699, Grosseto (GR), 58100]]
 
-Ricevute di pagamento:
-- [[file:Ricevuta_Pagamento_1.pdf][Ricevuta Pagamento 1]]
-
 ** Pagamenti alloggio
 Per la casa:
 - costo per tutti (7 notti): 209,19 EUR;
@@ -23,6 +20,9 @@ Coordinate bancarie:
 - IBAN: IT36Q0301503200000006169101
 - Intestato a PECCIOLI Davide
 - Fineco Bank
+
+Ricevute di pagamento:
+- [[file:Ricevuta_Pagamento_1.pdf][Ricevuta Pagamento 1]]
 
 ** Tricount
 Link Tricount: https://tricount.com/tCNAyPofhWgzNXaJuI
