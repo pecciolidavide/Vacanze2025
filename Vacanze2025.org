@@ -1,6 +1,7 @@
 #+title: Vacanze 2025
 #+EXPORT_FILE_NAME: index
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: html5-fancy:t
 
 * Viaggio a Grosseto
 2-9 agosto
@@ -11,11 +12,26 @@ Costo alloggio: 1577 EUR
 Indirizzo: [[https://maps.app.goo.gl/Vor7XBa6eqLtBHMw7][Località Cernaia 699, Grosseto (GR), 58100]]
 
 Ricevute di pagamento:
-- [[file:Ricevuta_Pagamento_1.pdf][icevuta Pagamento 1]]
+- [[file:Ricevuta_Pagamento_1.pdf][Ricevuta Pagamento 1]]
 
-* Proposte
+** Pagamenti alloggio
+Per la casa:
+- costo per tutti (7 notti): 209,19 EUR;
+- costo per Ferdaous (4 notti): 112,64 EUR.
 
-Tutti i prezzi sono in EUR, e i costi a persona sono *comprensivi di alloggio e trasporti*
+Coordinate bancarie:
+- IBAN: IT36Q0301503200000006169101
+- Intestato a PECCIOLI Davide
+- Fineco Bank
+
+** Tricount
+Link Tricount: https://tricount.com/tCNAyPofhWgzNXaJuI
+
+** Idee scartate
+#+html: <details>
+#+html: <summary>Vedi le proposte scartate</summary>
+
+Tutti i prezzi sono in EUR, e i costi a persona sono *comprensivi di alloggio e trasporti*. Questo è il dettaglio a persona
 
 | Nome        | Luogo                        | LINK     | Periodo      | Costo a persona | Costo Ferdaous | Features            |
 |-------------+------------------------------+----------+--------------+-----------------+----------------+---------------------|
@@ -32,8 +48,7 @@ Tutti i prezzi sono in EUR, e i costi a persona sono *comprensivi di alloggio e 
 | Opzione 10  | Genova 2                     | [[https://www.booking.com/hotel/it/casa-arcipelago.it.html?aid=1259720&label=metahometogo-link-metait-hotel-2603661_xqdz-bee8e9a537a930add1d969aa8d0a6064_dev-dsk_los-6_ver-vr_br-h2g&sid=ec6b73ef4ae6045231c4dbeddec70029&all_sr_blocks=260366101_372927231_8_0_0&checkin=2025-08-02&checkout=2025-08-08&dest_id=-118400&dest_type=city&dist=0&group_adults=8&group_children=0&hapos=1&highlighted_blocks=260366101_372927231_8_0_0&hpos=1&matching_block_id=260366101_372927231_8_0_0&no_rooms=1&req_adults=8&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=260366101_372927231_8_0_0__146880&srepoch=1740786854&srpvid=f081a7eff72b021c&type=total&ucfs=1&][Booking]]  | 2-8 agosto   | 215 (6 notti)   |            133 | Mare                |
 |-------------+------------------------------+----------+--------------+-----------------+----------------+---------------------|
 
-** Costi totali
-
+Questi sono i costi totali, per macchina e casa.
 | Nome        | Luogo                        | LINK     | Periodo     | Costo | Costo Macchina |
 |-------------+------------------------------+----------+-------------+-------+----------------|
 | /           | <                            | >        | <>          |    <> |             <> |
@@ -49,9 +64,10 @@ Tutti i prezzi sono in EUR, e i costi a persona sono *comprensivi di alloggio e 
 | Opzione 10  | Genova 2                     | [[https://www.booking.com/hotel/it/casa-arcipelago.it.html?aid=1259720&label=metahometogo-link-metait-hotel-2603661_xqdz-bee8e9a537a930add1d969aa8d0a6064_dev-dsk_los-6_ver-vr_br-h2g&sid=ec6b73ef4ae6045231c4dbeddec70029&all_sr_blocks=260366101_372927231_8_0_0&checkin=2025-08-02&checkout=2025-08-08&dest_id=-118400&dest_type=city&dist=0&group_adults=8&group_children=0&hapos=1&highlighted_blocks=260366101_372927231_8_0_0&hpos=1&matching_block_id=260366101_372927231_8_0_0&no_rooms=1&req_adults=8&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=260366101_372927231_8_0_0__146880&srepoch=1740786854&srpvid=f081a7eff72b021c&type=total&ucfs=1&][Booking]]  | 2-8 agosto  |  1469 |            172 |
 |-------------+------------------------------+----------+-------------+-------+----------------|
 
+#+html: </details>
 * Gestione Spese
 
-Gestione spese della casa
+** Gestione spese della casa
 \begin{equation*}
 T = \text{totale}; \quad F=\text{costo Ferdaous}; \quad X=\text{costo a persona}; \quad n = \text{notti}.
 \end{equation*}
@@ -61,7 +77,7 @@ X &= \frac{4T}{n} \cdot \frac{1}{8} + \frac{(n-4)T}{n} \cdot \frac{1}{7}\\[1em]
 7X+F &= 7 \left(\frac{4T}{n} \cdot \frac{1}{8} + \frac{(n-4)T}{n} \cdot \frac{1}{7}\right) + \frac{4T}{n} \cdot \frac{1}{8} = T
 \end{align*}
 
-Gestione macchina:
+** Gestione macchina:
 \begin{equation*}
 T = \text{totale}; \quad F=\text{costo Ferdaous}; \quad X=\text{costo a persona}.
 \end{equation*}
