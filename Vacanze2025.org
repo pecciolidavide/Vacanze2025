@@ -21,9 +21,6 @@ Coordinate bancarie:
 - Intestato a PECCIOLI Davide
 - Fineco Bank
 
-Ricevute di pagamento:
-- [[file:Ricevuta_Pagamento_1.pdf][Ricevuta Pagamento 1]]
-
 ** Tricount
 Link Tricount: https://tricount.com/tCNAyPofhWgzNXaJuI
 
