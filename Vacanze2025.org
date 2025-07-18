@@ -4,14 +4,21 @@
 #+OPTIONS: html5-fancy:t
 
 * Viaggio a Grosseto
-2-9 agosto
+2-9 agosto, 8 persone
 
 https://www.airbnb.com/l/ni24ihqn?s=67&unique_share_id=8c0de06d-4fb4-47b1-9dc3-13ff527933cf
 
-Costo alloggio: 1577 EUR
 Indirizzo: [[https://maps.app.goo.gl/Vor7XBa6eqLtBHMw7][Località Cernaia 699, Grosseto (GR), 58100]]
 
-** Pagamenti alloggio
+** Tricount
+Link Tricount: https://tricount.com/tCNAyPofhWgzNXaJuI
+
+** Pagamenti alloggio :ignore:
+#+html: <details>
+#+html: <summary>Vedi i costi</summary>
+
+Costo alloggio: 1577 EUR
+
 Per la casa:
 - costo per tutti (7 notti): 209,19 EUR;
 - costo per Ferdaous (4 notti): 112,64 EUR.
@@ -21,10 +28,7 @@ Coordinate bancarie:
 - Intestato a PECCIOLI Davide
 - Fineco Bank
 
-** Tricount
-Link Tricount: https://tricount.com/tCNAyPofhWgzNXaJuI
-
-** Idee scartate
+** Idee scartate :ignore:
 #+html: <details>
 #+html: <summary>Vedi le proposte scartate</summary>
 
@@ -62,7 +66,60 @@ Questi sono i costi totali, per macchina e casa.
 |-------------+------------------------------+----------+-------------+-------+----------------|
 
 #+html: </details>
-* Gestione Spese
+* Programmazione :export:
+
+** Scansione pasti
+
+*** 2 agosto
+
+- _Pranzo_: al sacco;
+- _Cena_: Pasta veloce con un sugo semplice (portato da casa).
+
+*** 3 agosto
+
+- _Colazione_:
+- _Pranzo_: Frittatona + pane e patate (portato da casa)
+
+*** 4 agosto
+*** 5 agosto
+*** 6 agosto
+*** 7 agosto
+*** 8 agosto
+*** 9 agosto
+
+** Idee Pasti per la vacanza
+
+- Grigliata di Pesce
+- Tiramusù (by Roberto)
+- Scialatielli
+
+** Giochi da portare in vacanza
+
+- *Roberto*: /Room 25/
+- *Alessia*: /Bang/ (7 persone)
+- *Davide*: /Sabouteur/ (8 persone)
+- [ ] /Citadels/
+- *Simone*: /Isaac/ (4+ persone)
+- *Davide*: Carte da Gioco Francesi
+- *Davide*: Carte da Gioco Piacentine
+- *Roberto*: _Gioco carino per 4_
+
+** Spesa da fare a Torino per i primi giorni
+
+- [ ] Pasta 1 kg
+- [ ] Sugo Barilla già pronto
+- [ ] Uova
+- [ ] Verdure intere per la frittata
+- [ ] Pane per la frittata (pagnottone)
+- [ ] Patate
+
+- [ ] Olio
+- [ ] Sale, pepe, e spezie varie
+- [ ] COLAZIONE????
+
+* Gestione Spese :ignore:
+#+html: <details>
+#+html: <summary>Vedi i dettagli sulla suddivizione delle spese</summary>
 
 ** Gestione spese della casa
 \begin{equation*}
