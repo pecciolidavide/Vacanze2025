@@ -8,12 +8,12 @@
 
 https://www.airbnb.com/l/ni24ihqn?s=67&unique_share_id=8c0de06d-4fb4-47b1-9dc3-13ff527933cf
 
-Indirizzo: [[https://maps.app.goo.gl/Vor7XBa6eqLtBHMw7][Località Cernaia 699, Grosseto (GR), 58100]]
+Indirizzo: [[https://goo.gl/maps/sUsGjAHtu2DnFYQq7][Località Cernaia 695, Grosseto (GR), 58100]]
 
 ** Tricount
 Link Tricount: https://tricount.com/tCNAyPofhWgzNXaJuI
 
-** Pagamenti alloggio :ignore:
+** Pagamenti alloggio :ignore:noexport:
 #+html: <details>
 #+html: <summary>Vedi i costi</summary>
 
@@ -28,7 +28,7 @@ Coordinate bancarie:
 - Intestato a PECCIOLI Davide
 - Fineco Bank
 
-** Idee scartate :ignore:
+** Idee scartate :ignore:noexport:
 #+html: <details>
 #+html: <summary>Vedi le proposte scartate</summary>
 
@@ -66,7 +66,7 @@ Questi sono i costi totali, per macchina e casa.
 |-------------+------------------------------+----------+-------------+-------+----------------|
 
 #+html: </details>
-** Gestione Spese :ignore:
+** Gestione Spese :ignore:noexport:
 #+html: <details>
 #+html: <summary>Vedi i dettagli sulla suddivizione delle spese</summary>
 
@@ -91,32 +91,93 @@ X &= \frac{2T}{15}\\[0.6em]
 \end{align*}
 * Programmazione
 
-** Scansione pasti
-
-*** 2 agosto
-
-- _Pranzo_: al sacco;
-- _Cena_: Pasta veloce con un sugo semplice (portato da casa).
-
-*** 3 agosto
-
-- _Colazione_:
-- _Pranzo_: Frittatona + pane e patate (portato da casa)
-
-*** 4 agosto
-*** 5 agosto
-*** 6 agosto
-*** 7 agosto
-*** 8 agosto
-*** 9 agosto
-
 ** Idee Pasti per la vacanza
 
 - Grigliata di Pesce
 - Tiramusù (by Roberto)
 - Scialatielli
 
-** Giochi da portare in vacanza
+** Scansione pasti
+
+*** 2 agosto :noexport:
+
+- _Pranzo_: al sacco;
+- _Cena_: Pasta veloce con un sugo semplice (portato da casa).
+
+*** 3 agosto (domenica)
+
+**** Pranzo:
+- 2 frittate con: zucchine e cipolle, zucchine e pancetta
+- Patate
+**** Cena:
+- Scialatielli allo scoglio
+- Anguria (frutta generica)
+
+*** 4 agosto (lunedì)
+
+**** Pranzo:
+- Pasta panna e salmone
+**** Cena:
+- Bistecchine impanate (con frutta e verdura(insalata) annessa)
+- Peperonata (aka verdure cotte)
+
+*** 5 agosto (martedì)
+
+Giornata spiaggia
+
+**** Pranzo:
+- Pranzo al sacco in spiaggia
+**** Cena:
+- Cena fuori (generica, di pesce)
+
+*** 6 agosto (mercoledì)
+
+**** Pranzo:
+- Pasta carbonara
+**** Cena: (Ferdy si toglie dalle palle :( )
+- Polpette al sugo
+
+*** 7 agosto (giovedì)
+
+Giornata spiaggia
+
+**** Pranzo:
+- Pranzo al sacco in spiaggia
+- Panini (generici)
+**** Cena:
+- Cena fuori allo scassa palle
+
+*** 8 agosto (venerdì)
+
+**** Pranzo:
+- Caprese, straccetti di pollo
+**** Cena:
+- Pizza in spiaggia
+
+*** 9 agosto (sabato)
+
+**** Pranzo:
+- Pranziamo a Lucca
+
+
+** Lista della prima spesa
+- Per l'insalata di riso, dobbiamo comprare i contenitori di alluminio (magari delle posate di plastica).
+- sgrassatore per cucina
+- carta igenica
+- panno carta x cucina
+- sapone per la lavatrice
+- carta stagnola
+
+- Aceto balsamico
+- Comprare dell'insalata varia
+- sale grosso (forse fino)
+- marmellata ai lamponi/ciliegia/amarena
+- latte intero (1L)
+- succhi di frutta: arancia rossa, ACE, pera
+- surgelato misto di pesce per pasta allo scoglio
+- farina 00
+
+** Giochi da portare in vacanza :noexport:
 
 - *Roberto*: /Room 25/
 - *Alessia*: /Bang/ (7 persone)
@@ -127,7 +188,7 @@ X &= \frac{2T}{15}\\[0.6em]
 - *Davide*: Carte da Gioco Piacentine
 - *Roberto*: _Gioco carino per 4_
 
-** Spesa da fare a Torino per i primi giorni
+** Spesa da fare a Torino per i primi giorni :noexport:
 
 - [ ] Pasta 1 kg
 - [ ] Sugo Barilla già pronto
